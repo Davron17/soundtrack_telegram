@@ -1,0 +1,129 @@
+.browse {
+  padding: 0 130px 93px 130px;
+}
+
+.browse__wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px 20px;
+  align-items: flex-start;
+}
+
+.browse-desc {
+  max-width: 394px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.browse-desc-title {
+  color: #121212;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+}
+
+.browse-desc-text {
+  color: #404852;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.346px;
+}
+
+.browse__nav {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.browse__nav-card {
+  max-width: 600px;
+  width: 100%;
+  border-bottom: 0.5px solid rgb(216, 216, 216, 0.4);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+
+.browse__nav-card-content {
+  display: flex;
+  gap: 84px;
+}
+
+.browse__nav-card-content-number {
+  padding-top: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 0.34);
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.browse__nav-card-content-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.browse__nav-card-content-desc-title {
+  color: #000;
+  font-size: 40px;
+  line-height: 70px;
+  letter-spacing: 0.833px;
+}
+
+.browse__nav-card-content-desc-text {
+  color: rgb(0, 0, 0, 0.5);
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+}
+
+.browse__nav-card-icon {
+  padding-top: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+  .browse__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .browse__nav-card-content {
+    gap: 30px;
+  }
+
+  .browse {
+    padding: 0;
+  }
+
+  .browse-desc-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+  .browse__nav-card-content-desc-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
